@@ -120,14 +120,14 @@ Output:
 
 
 
-🧩 Add More Languages
+# 🧩 Add More Languages
 
 - Add more Indic languages by extending the target list in your code:
 
 - target_langs = ["hin_Deva", "tam_Taml", "mal_Mlym", "mar_Deva", "ben_Beng", "tel_Telu", "kan_Knda"]
 
 
-💡 Future Enhancements
+### 💡 Future Enhancements
 
 - 🔊 Voice-to-Text translation (via Whisper)
 
@@ -140,4 +140,5 @@ Output:
 
 
 👩‍💻 Developed with passion ❤️ by Keerthana---i dont like this ---i want it to be not like this in a cell - i want it to be above --one  above installation 0--l
+
 
