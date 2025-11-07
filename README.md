@@ -37,7 +37,7 @@ It translates **code-mixed and Romanized Indic languages** (like *Roman Telugu, 
 ## ⚙️ Installation
 
 ### 1️⃣ Clone the repository
-```bash
+
 git clone https://github.com/<your-username>/LingoSense.git
 cd LingoSense
 2️⃣ Install dependencies
@@ -101,5 +101,6 @@ target_langs = ["hin_Deva", "tam_Taml", "mal_Mlym", "mar_Deva", "ben_Beng", "tel
 🗣️ Speech output in regional languages
 
 💬 Chat-based multilingual assistant
+
 
 🧠 Offline translation with model quantization
