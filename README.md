@@ -8,7 +8,7 @@ It translates **code-mixed and Romanized Indic languages** (like *Roman Telugu, 
 ## 🚀 Features
 
 ✅ **Supports Romanized input** — You can type *“nenu class ki vellali”* or *“naan class ku poganum”*  
-✅ **Handles 7 major Indian languages:**
+✅ **Handles 6 major Indian languages:**
 - Telugu  
 - Tamil  
 - Hindi  
@@ -47,35 +47,36 @@ lingosense/
 ## ⚙️ Installation
 
 ### 1️⃣ Clone the repository
-git clone https://github.com/<your-username>/LingoSense.git
-cd LingoSense
+- git clone https://github.com/<your-username>/LingoSense.git
+- cd LingoSense
 
 ### 2️⃣ Install dependencies
 
-Make sure Python 3.9+ is installed, then run:
+- Make sure Python 3.9+ is installed, then run:
 
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 ### 3️⃣ Run the app
 
-streamlit run streamlit_app.py
+- streamlit run streamlit_app.py
 
-Then open your browser at 👉 http://localhost:8501
+- Then open your browser at 👉 http://localhost:8501
 
 
 🧠 How It Works
-Step 1️⃣ – Roman Input → Native Script
 
-The app first transliterates Romanized text (e.g., nenu class ki vellali) into native script (నేను క్లాస్ కి వెళ్లాలి).
-It uses Indic Transliteration and Indic NLP Toolkit for accurate phonetic mapping.
+# Step 1️⃣ – Roman Input → Native Script
 
-Step 2️⃣ – Native Script → English
+- The app first transliterates Romanized text (e.g., nenu class ki vellali) into native script (నేను క్లాస్ కి వెళ్లాలి).
+- It uses Indic Transliteration and Indic NLP Toolkit for accurate phonetic mapping.
 
-The IndicTrans2 Indic-to-English model (indictrans2-indic-en-1B) converts native text into English.
+# Step 2️⃣ – Native Script → English
 
-Step 3️⃣ – English → All Indic Languages
+- The IndicTrans2 Indic-to-English model (indictrans2-indic-en-1B) converts native text into English.
 
-The English-to-Indic model (indictrans2-en-indic-1B) translates the English text into all supported Indian languages.
+- Step 3️⃣ – English → All Indic Languages
+
+- The English-to-Indic model (indictrans2-en-indic-1B) translates the English text into all supported Indian languages.
 
 🧰 Tech Stack
 | Component            | Technology Used                          |
@@ -88,12 +89,15 @@ The English-to-Indic model (indictrans2-en-indic-1B) translates the English text
 | Device Support       | CPU / GPU (CUDA supported)               |
 
 🖥️ Example Usage
-MARATHI:
+
+Here are some examples of **LingoSense** in action 👇
+
+# MARATHI:
 <img width="1868" height="901" alt="Screenshot 2025-11-07 190417" src="https://github.com/user-attachments/assets/09a5f872-bcfc-4e24-8406-dc7d2bc2d4d2" />
 <img width="1879" height="742" alt="Screenshot 2025-11-07 190429" src="https://github.com/user-attachments/assets/2c4b2d53-ad6d-4b0e-9fb8-6ec310ed1c67" />
 
 
-HINDI :
+# HINDI :
 <img width="1905" height="888" alt="Screenshot 2025-11-07 190503" src="https://github.com/user-attachments/assets/1b550641-2133-48c3-85a8-783ab370c645" />
 <img width="1919" height="898" alt="Screenshot 2025-11-07 190514" src="https://github.com/user-attachments/assets/cca7c502-ebaa-428a-aae2-d155076b115d" />
 
@@ -118,9 +122,9 @@ Output:
 
 🧩 Add More Languages
 
-Add more Indic languages by extending the target list in your code:
+- Add more Indic languages by extending the target list in your code:
 
-target_langs = ["hin_Deva", "tam_Taml", "mal_Mlym", "mar_Deva", "ben_Beng", "tel_Telu", "kan_Knda"]
+- target_langs = ["hin_Deva", "tam_Taml", "mal_Mlym", "mar_Deva", "ben_Beng", "tel_Telu", "kan_Knda"]
 
 
 💡 Future Enhancements
@@ -136,3 +140,4 @@ target_langs = ["hin_Deva", "tam_Taml", "mal_Mlym", "mar_Deva", "ben_Beng", "tel
 
 
 👩‍💻 Developed with passion ❤️ by Keerthana---i dont like this ---i want it to be not like this in a cell - i want it to be above --one  above installation 0--l
+
