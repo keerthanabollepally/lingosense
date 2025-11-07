@@ -89,6 +89,9 @@ The English-to-Indic model (indictrans2-en-indic-1B) translates the English text
 
 🖥️ Example Usage
 
+<img width="1905" height="888" alt="Screenshot 2025-11-07 190503" src="https://github.com/user-attachments/assets/3fd81c56-3693-43b8-9d19-0e56254a81f6" />
+
+
 Input (Roman Telugu):
 
 nenu class ki vellali
@@ -119,5 +122,6 @@ target_langs = ["hin_Deva", "tam_Taml", "mal_Mlym", "mar_Deva", "ben_Beng", "tel
 - 💬 Chat-based multilingual assistant
 
 - 🧠 Offline translation with model quantization
+
 
 
