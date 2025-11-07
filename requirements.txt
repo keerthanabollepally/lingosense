@@ -1,0 +1,22 @@
+# Core
+torch
+transformers
+sentencepiece
+protobuf
+sacremoses
+numpy
+regex
+tqdm
+
+# Indic Language Utilities
+IndicTransToolkit
+indic-nlp-library
+indic-transliteration
+langcodes
+
+# Streamlit App
+streamlit
+
+# Optional: For faster inference and smooth model loading
+accelerate
+bitsandbytes
