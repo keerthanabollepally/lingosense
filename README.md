@@ -8,14 +8,14 @@ It translates **code-mixed and Romanized Indic languages** (like *Roman Telugu, 
 ## 🚀 Features
 
 ✅ **Supports Romanized input** — You can type *“nenu class ki vellali”* or *“naan class ku poganum”*  
-✅ **Handles 6 major Indian languages:**
+✅ **Handles 7 major Indian languages:**
 - Telugu  
 - Tamil  
 - Hindi  
 - Marathi  
 - Malayalam  
 - Bengali  
-  
+- Kannada  
 
 ✅ **Two-way Translation:**
 - Indic → English  
@@ -88,6 +88,7 @@ The English-to-Indic model (indictrans2-en-indic-1B) translates the English text
 | Device Support       | CPU / GPU (CUDA supported)               |
 
 🖥️ Example Usage
+
 HINDI EXAMPLE USAGE:
 <img width="1919" height="898" alt="Screenshot 2025-11-07 190514" src="https://github.com/user-attachments/assets/fa443ee1-263c-41aa-827d-432137b38b6d" />
 <img width="1919" height="898" alt="Screenshot 2025-11-07 190514" src="https://github.com/user-attachments/assets/99418384-ecea-4f2a-bf53-f72bb75c9624" />
