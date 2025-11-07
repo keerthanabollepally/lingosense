@@ -89,11 +89,13 @@ The English-to-Indic model (indictrans2-en-indic-1B) translates the English text
 
 🖥️ Example Usage
 
-HINDI EXAMPLE USAGE:
+🖥️ Example Usage
+
+### HINDI EXAMPLE USAGE:
 <img width="1919" height="898" alt="Screenshot 2025-11-07 190514" src="https://github.com/user-attachments/assets/fa443ee1-263c-41aa-827d-432137b38b6d" />
 <img width="1919" height="898" alt="Screenshot 2025-11-07 190514" src="https://github.com/user-attachments/assets/99418384-ecea-4f2a-bf53-f72bb75c9624" />
 
-MARATHI EXAMPLE USAGE:
+### MARATHI EXAMPLE USAGE:
 <img width="1868" height="901" alt="Screenshot 2025-11-07 190417" src="https://github.com/user-attachments/assets/f89e8d3f-b6fd-4c27-877c-d392a57f0f5f" />
 <img width="1879" height="742" alt="Screenshot 2025-11-07 190429" src="https://github.com/user-attachments/assets/58cc153a-8978-47a9-8e45-9b4ab4b5c9c3" />
 
@@ -128,5 +130,6 @@ target_langs = ["hin_Deva", "tam_Taml", "mal_Mlym", "mar_Deva", "ben_Beng", "tel
 - 💬 Chat-based multilingual assistant
 
 - 🧠 Offline translation with model quantization
+
 
 
